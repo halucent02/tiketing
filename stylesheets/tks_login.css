@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@import url(fonts.css);
+body{
+	overflow:hidden;
+	}
+html.tksbg{
+	  background: url(../images/login/tks_loginbg.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	}
+	
+	.footser{
+		position: fixed; bottom:0px;left:0px;
+		width:100%;color:#FFF;
+		background-image:url(../images/login/footerbg.png);
+		}
+		
+	.esg_name{
+		font-family:din_light;  margin:auto; font-size:12px;
+		width:250px; height:19px;
+		}
+		
+/*------------contents-------*/
+
+.head_design{
+	height:20px;
+	background-image:url(../images/login/footerbg.png);
+	}
+	
+.ds{
+	width:95px; height:96px; margin:auto;
+	background-image:url(../images/login/dropshadow.png);
+	}
+	.midcont{
+		padding-top:20px;
+		position:absolute;
+		width:100%;
+		}
+		
+	.pmclogo{
+			width:83px; height:75px;
+			background-image:url(../images/login/powermaclogo.png);
+			margin:auto;
+		}
+		
+	.hrlogs{
+		width:77px; height:112px;
+		background-image:url(../images/login/hrlogo.png);
+		margin:auto;
+		}
+		
+	.login-cont{
+		margin:auto;
+		width:430px; height:380px;
+		background-image:url(../images/login/logintransn.png);
+		}
+		
+	.tkslogos{
+			width:300px; height:120px;
+			position:absolute; margin-left:65px; margin-top:24px;
+			 background-image:url(../images/login/timekeeptest.gif);
+		}
+		
+	.username-f{
+			width:330px; position:absolute;text-align:center;
+	 		margin-left:50px; margin-top:170px;
+		}
+		
+	.pass-f{
+			width:330px; position:absolute; text-align:center;
+	 		margin-left:50px; margin-top:220px;
+		}
+		
+	.loginbtn{
+			width:60px; height:60px; position:absolute;
+			background-image:url(../images/login/login.png); 
+			margin-left:185px; margin-top:270px;
+		}
+		
+	.loginbtn:hover{
+		background-image:url(../images/login/active_login.png);
+		cursor:pointer;
+		}

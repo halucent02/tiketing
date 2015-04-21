@@ -1,0 +1,145 @@
+.usernav{
+    margin-top: 10px;
+}
+
+
+.bghead{
+  color: #084283;
+}
+
+.acctname{
+    margin-left: 20px;
+}
+
+.fullname{
+    width:785px; margin: auto;
+}
+
+.address{
+    width: 690px; margin-left:15px; margin-top: 5px;
+}
+.datebirth{
+    width:750px; margin-left: 15px; margin-top: 5px;
+    float: left;
+}
+
+.zipcode{
+    width: 120px; float: left;
+}
+.gender{
+    width: 80px; float: left; margin-left: 60px;
+}
+
+.email-cell{
+    width:750px; margin: auto; margin-top: 5px;
+}
+
+.email{
+    width:400px; float:left; margin-top:5px;
+}
+
+.cellnumber{
+    width:200px; float:left; margin-left: 20px; margin-top:5px;
+}
+
+.account-type{
+    width:690px; margin-left: 15px; margin-top: 5px;
+    float: left;
+}
+
+.acct-cont{
+    display: block;height: 250px;
+
+
+}
+.config-select{
+    width:350px; height: 242px; float: left; margin-left: 40px;
+     overflow-y: scroll; overflow-x: hidden; border-color: #cccccc;
+}
+
+.title-select{
+    width:320px;height: 40px;
+    border-bottom-right-radius: 5px; border-top-right-radius: 5px;
+    border-color: #cccccc; border-style: solid; border-width: thin;
+}
+
+.title-n{
+    width: 250px; height: 16px; margin-left:20px; margin-top: 12px;
+ font-family: Helvetica; font-size: 15px;
+
+}
+.create-clear{
+    width:500px; margin-left:100px;
+    float: left;
+}
+
+.acct-img{
+    width:220px; height:180px; float: left; margin-left: 50px;
+    background-image: url(../images/icons/acctgroup.png); margin-top: 30px;
+}
+
+
+.headings{
+    height: 18px; padding: 0px; margin: 0px;
+}
+
+.useraccess-pane{
+    width: 688px; margin-left: 16px;
+}
+
+.useraccess_list{
+    width:650px; height: 180px;
+    overflow-y: scroll; overflow-x: hidden;
+}
+
+
+/*-----list users -----*/
+
+
+
+
+.listuser-cont{
+    width: 680px; height: 150px; background-color: #0066CC;
+    margin-left: 40px; margin-top: 15px;
+}
+
+.acct-select{
+    width: 678px; height: 120px;
+}
+
+.de-buttons{
+    width:500px; margin-left:100px;
+
+}
+
+.acct-button{
+    margin-top: 20px; margin-left: 20px;
+
+}
+
+.useraccess-change:hover{
+    text-decoration: underline; color: #003399;
+}
+
+.named{
+    font-size: 14px; color: #aaaaaa;
+
+}
+/*--------- tabs ---*/
+
+.tabs1-cont{
+    width: 785px;
+    height: 750px;
+}
+
+.tabsi{
+    /*padding-bottom: 50px;*/
+    padding-top: 15px;
+}
+
+/*-----panels---*/
+
+.listusers_scroll{
+    height: 589px;
+    overflow-y: auto;
+}
