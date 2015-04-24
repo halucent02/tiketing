@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="<?= base_url('stylesheets/modal.css') ;?>" type="text/css" />
     <link rel="stylesheet" href="<?= base_url('stylesheets/jquery.signature.css') ;?>" type="text/css" />
     <link rel="stylesheet" href="<?= base_url('stylesheets/tks_login.css') ;?>" type="text/css" />
+    <link rel="stylesheet" href="<?= base_url('stylesheets/addemployee.css') ;?>" type="text/css" />
     <link rel="stylesheet" href="<?= base_url('stylesheets/user.css') ;?>" type="text/css" />
     <link rel="stylesheet" href="<?= base_url('stylesheets/adduseraccount.css') ;?>" type="text/css" />
     <link rel="stylesheet" href="<?= base_url('javascript_plugins/chosen_v1.4.2/docsupport/prism.css') ;?>" type="text/css" />
@@ -81,6 +82,16 @@
                 $( ".datepicker" ).datepicker();
             
 			/*----calendar date--e*/
+
+			/*-------------link dropdown --------*/
+			
+			 $(".add-user-account").click(function(){
+				 window.location.href="adduser";
+			 });
+			
+			/*-------------link dropdown --------*/
+			
+
 
         }); //closing of document.ready
 
