@@ -8,11 +8,7 @@
                     	<span class="icon-style glyphicon glyphicon-cog"></span>
                </div>
                     <ul class="menulist-style dropdown-menu" role="menu">
-                        <li><a href="#" data-toggle="modal" data-target="#gsx-Modal">Upload CSV file</a></li>
-                        <li><a href="#" data-toggle="modal" data-target="#email-Modal" >Add Employees</a></li>
-                        <li><a href="#" data-toggle="modal" data-target="#gsx-Modal">Add User Accounts</a></li>
-                        <li class="btn-config-set-menu-divider divider"></li>
-                        <li><a href="login.php">Sign Out</a></li>
+                       <?php require_once('_temp/dropdown_menu_list.php');?>
                     </ul>
             </div>
             </div>
@@ -24,8 +20,180 @@
   <!--------body part--->
   
   		<div class="bodypart-cont">
-        	
-            sdasdaskdjaskdljasfkdfkj
+        	<div class="pane-cont">
+            	<div class="adduseraccount-cont">
+                	<div class="adduser-h">ADD USER ACCOUNT</div>
+                    	<div class="nameinput-cont">
+                        	<div class="name-n">FIRST NAME:</div>
+                            <input type="text" class="fname-f form-control">
+                        </div>
+                        
+                        <div class="nameinput-cont">
+                        	<div class="name-n">LAST NAME:</div>
+                            <input type="text" class="fname-f form-control">
+                        </div>
+                        
+                         <div class="nameinput-cont">
+                        	<div class="name-n">USER NAME:</div>
+                            <input type="text" class="fname-f form-control">
+                        </div>
+                        
+                        <div class="nameinput-cont">
+                        	<div class="name-n">PASSWORD:</div>
+                            <input type="text" class="fname-f form-control">
+                        </div>
+                        
+                        	    <div class="nameinput-cont">
+                        			<div class="name-n">ACCT. TYPE:</div>
+                            		<select class="ddownacct">
+                                    	<option id="">Please choose</option>
+                                        <option id="admin">Administrator</option>
+                                        <option id="staff">Staff</option>
+                                    </select>
+                        		</div>
+                                	<div class="saves btn btn-danger">SAVE USER</div>
+                </div><!--adduseraccount-cont-->
+                
+                    <div class="userlist-cont">
+                    	<div class="listofusers-h">LIST OF USERS</div>
+                        	<div class="detailsfield">
+                                <div class="users-cont">
+                                    <div class="details-f">
+                                        <div class="namesdet-n">NAME:</div>
+                                        <div class="namesdet-f">MICHAEL JOE MIRAFLOR</div>
+                                        <div class="namesdetacct-n">ACCT. TYPE:</div>
+                                        <div class="namesdettype-f">ADMIN</div>
+                                        <div class="namesdetactivate-n">ACTIVATED?</div>
+                                        <div class="namesdettype-f">YES</div>
+                                    </div>
+                                    
+                                        <div class="btn1 btn btn-default">DEMOTE</div>
+                                        <div class="btn1 btn btn-default">ACTIVATE</div>
+                                        <div class="btn1 btn btn-danger">DELETE</div>
+                                </div><!-----user-cont-->
+                                
+                                
+                                <div class="users-cont">
+                                    <div class="details-f">
+                                        <div class="namesdet-n">NAME:</div>
+                                        <div class="namesdet-f">MICHAEL JOE MIRAFLOR</div>
+                                        <div class="namesdetacct-n">ACCT. TYPE:</div>
+                                        <div class="namesdettype-f">ADMIN</div>
+                                        <div class="namesdetactivate-n">ACTIVATED?</div>
+                                        <div class="namesdettype-f">YES</div>
+                                    </div>
+                                    
+                                        <div class="btn1 btn btn-default">DEMOTE</div>
+                                        <div class="btn1 btn btn-default">ACTIVATE</div>
+                                        <div class="btn1 btn btn-danger">DELETE</div>
+                                </div><!-----user-cont-->
+                                
+                                
+                                <div class="users-cont">
+                                    <div class="details-f">
+                                        <div class="namesdet-n">NAME:</div>
+                                        <div class="namesdet-f">MICHAEL JOE MIRAFLOR</div>
+                                        <div class="namesdetacct-n">ACCT. TYPE:</div>
+                                        <div class="namesdettype-f">ADMIN</div>
+                                        <div class="namesdetactivate-n">ACTIVATED?</div>
+                                        <div class="namesdettype-f">YES</div>
+                                    </div>
+                                    
+                                        <div class="btn1 btn btn-default">DEMOTE</div>
+                                        <div class="btn1 btn btn-default">ACTIVATE</div>
+                                        <div class="btn1 btn btn-danger">DELETE</div>
+                                </div><!-----user-cont-->
+                                
+                                
+                                <div class="users-cont">
+                                    <div class="details-f">
+                                        <div class="namesdet-n">NAME:</div>
+                                        <div class="namesdet-f">MICHAEL JOE MIRAFLOR</div>
+                                        <div class="namesdetacct-n">ACCT. TYPE:</div>
+                                        <div class="namesdettype-f">ADMIN</div>
+                                        <div class="namesdetactivate-n">ACTIVATED?</div>
+                                        <div class="namesdettype-f">YES</div>
+                                    </div>
+                                    
+                                        <div class="btn1 btn btn-default">DEMOTE</div>
+                                        <div class="btn1 btn btn-default">ACTIVATE</div>
+                                        <div class="btn1 btn btn-danger">DELETE</div>
+                                </div><!-----user-cont-->
+                                
+                                
+                                <div class="users-cont">
+                                    <div class="details-f">
+                                        <div class="namesdet-n">NAME:</div>
+                                        <div class="namesdet-f">MICHAEL JOE MIRAFLOR</div>
+                                        <div class="namesdetacct-n">ACCT. TYPE:</div>
+                                        <div class="namesdettype-f">ADMIN</div>
+                                        <div class="namesdetactivate-n">ACTIVATED?</div>
+                                        <div class="namesdettype-f">YES</div>
+                                    </div>
+                                    
+                                        <div class="btn1 btn btn-default">DEMOTE</div>
+                                        <div class="btn1 btn btn-default">ACTIVATE</div>
+                                        <div class="btn1 btn btn-danger">DELETE</div>
+                                </div><!-----user-cont-->
+                                
+                                
+                                <div class="users-cont">
+                                    <div class="details-f">
+                                        <div class="namesdet-n">NAME:</div>
+                                        <div class="namesdet-f">MICHAEL JOE MIRAFLOR</div>
+                                        <div class="namesdetacct-n">ACCT. TYPE:</div>
+                                        <div class="namesdettype-f">ADMIN</div>
+                                        <div class="namesdetactivate-n">ACTIVATED?</div>
+                                        <div class="namesdettype-f">YES</div>
+                                    </div>
+                                    
+                                        <div class="btn1 btn btn-default">DEMOTE</div>
+                                        <div class="btn1 btn btn-default">ACTIVATE</div>
+                                        <div class="btn1 btn btn-danger">DELETE</div>
+                                </div><!-----user-cont-->
+                                
+                                
+                                <div class="users-cont">
+                                    <div class="details-f">
+                                        <div class="namesdet-n">NAME:</div>
+                                        <div class="namesdet-f">MICHAEL JOE MIRAFLOR</div>
+                                        <div class="namesdetacct-n">ACCT. TYPE:</div>
+                                        <div class="namesdettype-f">ADMIN</div>
+                                        <div class="namesdetactivate-n">ACTIVATED?</div>
+                                        <div class="namesdettype-f">YES</div>
+                                    </div>
+                                    
+                                        <div class="btn1 btn btn-default">DEMOTE</div>
+                                        <div class="btn1 btn btn-default">ACTIVATE</div>
+                                        <div class="btn1 btn btn-danger">DELETE</div>
+                                </div><!-----user-cont-->
+                                
+                                
+                                <div class="users-cont">
+                                    <div class="details-f">
+                                        <div class="namesdet-n">NAME:</div>
+                                        <div class="namesdet-f">MICHAEL JOE MIRAFLOR</div>
+                                        <div class="namesdetacct-n">ACCT. TYPE:</div>
+                                        <div class="namesdettype-f">ADMIN</div>
+                                        <div class="namesdetactivate-n">ACTIVATED?</div>
+                                        <div class="namesdettype-f">YES</div>
+                                    </div>
+                                    
+                                        <div class="btn1 btn btn-default">DEMOTE</div>
+                                        <div class="btn1 btn btn-default">ACTIVATE</div>
+                                        <div class="btn1 btn btn-danger">DELETE</div>
+                                </div><!-----user-cont-->
+                                
+                                
+                            </div><!--detailsfield-->
+                            
+                            
+                            
+                    </div><!--userlist-cont-->
+            
+            
+            </div>
+            
         </div><!----bodypart-cont------>
   
   
