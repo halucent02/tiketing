@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="<?= base_url('javascript_plugins/bootstrap/css/bootstrap.min.css') ;?>"type="text/css">
     <link rel="stylesheet" href="<?= base_url('javascript_plugins/bootstrap/css/bootstrap-select.min.css') ;?>"type="text/css"> <!-- bootstrap select -->
     <link rel="stylesheet" href="<?= base_url('stylesheets/modal.css') ;?>" type="text/css" />
+    <link rel="stylesheet" href="<?= base_url('stylesheets/csv.css') ;?>" type="text/css" />
     <link rel="stylesheet" href="<?= base_url('stylesheets/jquery.signature.css') ;?>" type="text/css" />
     <link rel="stylesheet" href="<?= base_url('stylesheets/tks_login.css') ;?>" type="text/css" />
     <link rel="stylesheet" href="<?= base_url('stylesheets/addemployee.css') ;?>" type="text/css" />
@@ -85,8 +86,30 @@
 
 			/*-------------link dropdown --------*/
 			
-			 $(".add-user-account").click(function(){
+			 $(".add-user-account").click(function(event){
+				 event.preventDefault();
 				 window.location.href="adduser";
+			 });
+			  $(".home").click(function(event){
+				  event.preventDefault();
+				 window.location.href="home";
+			 });
+			 $(".add-employee").click(function(event){
+				 event.preventDefault();
+				 window.location.href="addemployee";
+			 });
+			 
+			 $(".upload-csv").click(function(event){
+				 event.preventDefault();
+				 window.location.href="uploadcsv";
+			 });
+			  $(".logouttk").click(function(event){
+				 event.preventDefault();
+				 window.location.href="login";
+			 });
+			 $(".loginbtn").click(function(event){
+				 event.preventDefault();
+				 window.location.href="home";
 			 });
 			
 			/*-------------link dropdown --------*/
