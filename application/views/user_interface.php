@@ -8,11 +8,7 @@
                    
                 </div>
                 <ul class="menulist-style dropdown-menu" role="menu">
-                	<li><a href="#" data-toggle="modal" data-target="#gsx-Modal">Upload CSV file</a></li>
-                    <li><a href="#" data-toggle="modal" data-target="#email-Modal" >Add Employees</a></li>
-                    <li><a href="#" data-toggle="modal" data-target="#gsx-Modal">Add User Accounts</a></li>
-                    <li class="btn-config-set-menu-divider divider"></li>
-                    <li><a href="login.php">Sign Out</a></li>
+                	<?php require_once('_temp/dropdown_menu_list.php');?>
                 </ul>
             </div>
    
@@ -402,4 +398,4 @@
          </div><!--midcont-user-->
  
 
-<?php require_once('_temp/footer.php');?>>>>>>>>>>>>>>>>>>>>>
+<?php require_once('_temp/footer.php');?>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
