@@ -4,5 +4,99 @@
 
 .bodypart-cont{
 		width:1024px; 
-		 margin:auto; background-color:transparent;
+		 margin:auto; 
+	}
+	
+.pane-cont{
+		width:950px; height:400px;margin-top:20px;  margin-left:10px; border-style: ridge;
+		background-color:#F5f5f5; position:absolute; border-radius: 10px 30px 10px 30px;
+	}
+.adduseraccount-cont{
+	width:300px; height:275px; float:left; border-radius:0px 0px 20px 20px;
+	background-color:#e4e4e4; margin-left:14px; margin-top:5px;
+	}
+	
+.userlist-cont{
+	width:600px; height:360px; float:left; border-radius:0px 0px 15px 15px;
+	background-color:#e4e4e4; margin-left:5px; margin-top:5px;
+	}
+	
+.detailsfield{
+	width:600px; height:330px;overflow-y:scroll;
+	}
+	
+/*-----------user account -------*/
+.adduser-h{
+	width:300px; height:30px; color:#FFF;
+	background-color:#903; text-align:center;
+	font-family:din_reg; font-size:18px;
+	}
+	
+.nameinput-cont{
+	width: 300px; height:30px;
+	/*background-color:#AAA;*/ margin-top:5px;
+	}
+
+.name-n{
+	float:left; width:88px; font-family:din_reg;
+	margin-top:3px; text-align:right;
+	}
+.fname-f{
+	float:left; margin-left:5px;
+	width:200px; height:26px;
+	}
+.ddownacct{
+	width:200px; margin-top:4px; margin-left:5px;
+	}
+.saves{
+	width:250px; margin-top:10px; margin-left:25px;
+	}
+/*-----------user account -------*/
+
+/*-----------listofusers account -------*/
+
+
+.listofusers-h{
+	width:600px; height:30px; color:#FFF;
+	background-color:#903; text-align:center;
+	font-family:din_reg; font-size:18px;
+	}
+/*-----------listofusers account -------*/
+
+.users-cont{
+	width:600px; height:60px; background-color:#DDD;
+	margin-top:5px; border-radius:10px;
+	}
+.details-f{
+	width:600px; height:30px; /*background-color:#777;*/
+	}
+.namesdet-n{
+	width:50px; height:20px; /*background-color:#080;*/
+	float:left; margin-top:5px; margin-left:8px; color:#903;
+	}
+
+.namesdet-f{
+	width:220px; height:20px; /*background-color:#080;*/
+	float:left; font-family:din_reg; font-size:14px;
+	 margin-top:5px;
+	}
+.namesdetacct-n{
+	width:90px; height:20px; /*background-color:#080;*/
+	float:left; margin-left:6px; margin-top:5px;
+	color:#903;
+	}
+.namesdettype-f{
+	width:50px; height:20px; /*background-color:#080;*/
+	float:left; font-family:din_reg; font-size:14px;
+	 margin-top:5px;
+	}
+.namesdetactivate-n{
+	width:90px; height:20px; /*background-color:#080;*/
+	float:left; margin-left:25px;  margin-top:5px;
+	color:#903;
+	}
+	
+.btn1{
+	 height:22px; padding:0; width:120px;
+	margin-left:5px;
 	}
